@@ -35,3 +35,73 @@ header {
     border-radius: 5px;
     color: white;
 }
+
+.player-sidebar {
+    width: 300px
+}
+
+.sidebar-menu {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.sidebar-menu button {
+    width: 100%;
+}
+
+
+.player-section {
+    margin-top: 30px;
+    display: flex;
+}
+
+.player-sidebar {
+    width: 300px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    padding: 28px 0;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.sidebar-menu {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+.sidebar-menu button {
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+    margin-right: 8px;
+}
+
+.item-info button {
+    padding: 5px 15px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.item-info {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.item-info span {
+    padding-right: 30px;
+}
