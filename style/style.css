@@ -85,10 +85,16 @@ header {
 .items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
 }
 
 .item {
     margin-right: 8px;
+}
+
+.item-info {
+    padding-top: 10px;
+    padding-left: 15px;
 }
 
 .item-info button {
@@ -97,9 +103,9 @@ header {
     border-radius: 2px;
 }
 
-.item-info {
-    padding-top: 10px;
-    padding-left: 15px;
+
+.item-info p {
+    font-weight: bold;
 }
 
 .item-info span {
